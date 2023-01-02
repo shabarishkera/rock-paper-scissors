@@ -1,0 +1,83 @@
+*
+{
+margin: 0;
+border: 0;
+box-sizing: border-box;
+
+}
+
+#outercontainer
+{
+height: 400px ;
+width: 500px;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: grid;
+grid-template-columns:  1fr 1fr 1fr;
+grid-template-rows: 2fr 1fr;
+
+box-shadow: 3px 11px 24px purple;
+}
+#user,#bot,#vs
+{
+display: flex;;
+justify-content: center;
+align-items: center;
+font-family: fantasy;
+font-size: 55px;
+background-color: lightblue;
+color: white;
+position: relative;
+}
+#user
+{
+background-image: url("user1.png");
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
+#bot{
+background-image:url("bot.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position:center;
+}
+span
+{
+  color: red;
+font-size: 76px;
+
+}
+
+code
+{
+position: absolute;
+bottom:0;
+
+}
+#rock
+{
+  background-image:url("rock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+
+}
+#paper
+{
+  background-image:url("paper.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+
+}
+#scissor
+{
+  background-image:url("scissor.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+
+}
